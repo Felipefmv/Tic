@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Jogo da Velha</title>
+    <link rel="icon" href="./images/icon.png" type="image/png">
+    <link rel="stylesheet" href="./styles.css" type="text/css">
+</head>
+
+<body>
+    <h1>Jogo da Velha</h1>
+    <div class="scoreboard">
+        
+        <div id="points" class="points">
+            <div id="o-points" class="o-points">0</div>
+            <img class='points-img' src="./images/o.png"/>
+        </div>
+        <div id="points" class="points">
+            <div id="x-points" class="x-points">0</div>
+            <img class='points-img' src="./images/x.png"/>
+        </div>
+    </div>
+    
+    <div class="stage">
+        <div class="line">
+            <div class="square" id="0"></div>
+            <div class="square" id="1"></div>
+            <div class="square" id="2"></div>
+        </div>
+        <div class="line">
+            <div class="square" id="3"></div>
+            <div class="square" id="4"></div>
+            <div class="square" id="5"></div>
+        </div>
+        <div class="line">
+            <div class="square" id="6"></div>
+            <div class="square" id="7"></div>
+            <div class="square" id="8"></div>
+        </div>
+    </div>
+    <button class="reset">Reset</button>
+    <script type="text/javascript" src="./scripts/interface.js"></script>
+    <script type="text/javascript" src="./scripts/game.js"></script>
+
+    <!-- <div class="modal fade" id="modal">
+        <div id="modal-content">
+            <h2>Partida encerada!</h2>
+            <p>o vencedor é</p>
+            <button type="button" id="play-again" class="play-again"> Jogar novamente</button>
+        </div>
+    </div> -->
+</body>
+
+</html>
